@@ -1,0 +1,73 @@
+/* Redefina estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #a9c1ff;
+    padding: 18px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Seções */
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Listas */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  ul li h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  ul li p {
+    margin-bottom: 7px;
+  }
+  
+  /* Links */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
